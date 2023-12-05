@@ -1,10 +1,46 @@
-body {
+/* Reset default margin and padding for the body and HTML. */
+body, html {
   padding: 0;
   margin: 0;
+  height: 100%; /* Make sure the body and HTML fill the entire viewport. */
 }
 
-#map,
-body,
-html {
+/* Set map, body, and HTML to 100% of the screen size. */
+#map {
   height: 100%;
 }
+
+/* Style the legend to be positioned on the map. */
+#legend {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+/* Style individual items within the legend. */
+.legend-item {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the legend color swatches. */
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+Regenerate
+Send a message
+
